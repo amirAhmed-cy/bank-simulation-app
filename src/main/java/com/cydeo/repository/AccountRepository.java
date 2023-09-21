@@ -10,6 +10,7 @@ public class AccountRepository {
 
     public static List<Account> accountList = new ArrayList<>();
 
+    //finds and returns all the account created
     public static List<Account> findAll() {
         return accountList;
     }
